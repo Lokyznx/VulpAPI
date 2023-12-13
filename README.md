@@ -5,7 +5,7 @@ Esta API fornece informações sobre jogadores do Minecraft, incluindo avatares,
 ## Como Usar
 
 ### Endpoint
-https:aa/minecraft/:username
+https://vulpapi.squareweb.app/minecraft/:username
 
 ### Exemplo de Solicitação com Axios (Node.js)
 
@@ -14,7 +14,7 @@ const axios = require('axios');
 
 const username = 'NomeDoJogador';
 
-axios.get(`https://seu-domínio.com/minecraft/${username}`)
+axios.get(`https://vulpapi.squareweb.app/minecraft/${username}`)
   .then((response) => {
     console.log(response.data);
   })
@@ -29,7 +29,7 @@ const fetch = require('node-fetch');
 
 const username = 'NomeDoJogador';
 
-fetch(`https://seu-domínio.com/minecraft/${username}`)
+fetch(`https://vulpapi.squareweb.app/minecraft/${username}`)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);

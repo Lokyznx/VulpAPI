@@ -22,6 +22,7 @@ axios.get(`https://seu-domínio.com/minecraft/${username}`)
     console.error(error.response.data);
   });
 ```
+### Exemplo de Solicitação com Node-Fetch (Node.js)
 
 ```javascript
 const fetch = require('node-fetch');
